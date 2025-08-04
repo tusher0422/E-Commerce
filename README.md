@@ -1,16 +1,32 @@
-# booking
+# Flutter E-Commerce Web App
 
-A new Flutter project.
+A beginner-friendly Flutter web e-commerce app with Firebase, Stripe integration, and product listing via API.
 
-## Getting Started
+## Setup
 
-This project is a starting point for a Flutter application.
+- Run `flutter pub get`
+- Connect Firebase: `flutterfire configure`
+- Deploy `functions/index.js` or run it locally
+- Add your Stripe secret key in `.env` (do NOT commit)
+- Run app: `flutter run -d chrome`
 
-A few resources to get you started if this is your first Flutter project:
+## Packages Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- firebase_core, firebase_auth, google_sign_in
+- cloud_firestore, flutter_stripe
+- http, get, flutter_easyloading
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+- Google Sign-In with Firebase
+- Product list from Fake Store API
+- Stripe payments using Firebase Functions
+- Basic product detail view
+- Simple GetX state management
+
+## Limitations
+
+- Stripe works only in test mode
+- Public API, no real product database
+- Only Google Sign-In supported
+
