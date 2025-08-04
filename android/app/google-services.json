@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "797125567564",
+    "project_id": "simpleecommerceapp-bcb89",
+    "storage_bucket": "simpleecommerceapp-bcb89.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797125567564:android:f4e84f7f5a17285d4f00e9",
+        "android_client_info": {
+          "package_name": "com.example.booking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD21mXkRHe9Ed7mYRj8NbddqN9haHttQV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
